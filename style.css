@@ -1,0 +1,321 @@
+*{
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+
+body{
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.4;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+div.container{
+    width: 900px;
+    margin: 0 auto;
+    padding: 15px;
+    background-image: linear-gradient(lightblue, white, lightblue);
+}
+
+    div.container div.details{
+        margin: 0 auto;
+    }
+
+        div.container div.details img{
+            display: inline-block;
+            width: 320px;
+            margin: 20px;
+        }
+
+        div.container div.details div.info{
+            color: darkblue;
+            display: inline-block;
+            vertical-align: top;
+            letter-spacing: 1px;
+            margin-top: 50px;
+            width: 520px;
+        }
+
+        div.container div.details h3{
+            border-bottom: 2px solid darkblue;
+            padding-bottom: 25px;
+            margin-bottom: 25px;
+        }
+
+    div.container div.about{
+        text-align: center;
+    }
+        div.container div.about div.about-me{
+            margin: 0 20px;
+            padding: 5px;
+        }
+
+        div.container div.about div.about-me p{
+            text-align: justify;
+        }
+
+    div.container div.about div.languages{
+        display: inline-block;
+        width: 400px;
+        min-height: 400px;
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+        div.container div.about div.languages .logos{
+            width: 65px;
+            margin: 7px 2px 2px 2px;
+        }
+
+    div.container div.about div.projects{
+        vertical-align: top;
+        background-image: linear-gradient(white, lightgrey);
+        display: inline-block;
+        width: 400px;
+        min-height: 400px;
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+        div.container div.about div.projects h4{
+            margin: 15px 0 0 10px;
+            text-align: left;
+        }
+
+        div.container div.about div.projects p{
+            margin-left: 10px;
+            text-align: left;
+        }
+
+div.container div.social{
+      text-align: center;
+      margin-top: 20px;
+}
+
+    div.container div.social a{
+        color: black;
+        vertical-align: 25%;
+        padding: 5px
+    }
+
+    div.container div.social img{
+        width: 25px;
+    }
+
+/* MEDIA QUERY */
+
+/* Phone */
+@media only screen and (max-width: 480px) {
+div.container{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 15px;
+    background-image: linear-gradient(lightblue, white, lightblue);
+}
+
+    div.container div.details{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+        div.container div.details img{
+            width: 250px;
+            margin-top: 20px;
+        }
+
+        div.container div.details div.info{
+            color: darkblue;
+            display: inline-block;
+            vertical-align: top;
+            letter-spacing: 1px;
+            margin: 10px 0;
+            width: 480px;
+        }
+
+        div.container div.details h1{
+            font-size: 3.2rem;
+        }
+
+        div.container div.details h3{
+            font-size: 1.4rem;
+            border-bottom: 2px solid darkblue;
+            padding-bottom: 25px;
+            margin-bottom: 25px;
+        }
+
+    div.container div.about{
+        text-align: center;
+    }
+
+    div.container div.about h2{
+        font-size: 1.7rem;
+    }
+
+        div.container div.about div.about-me{
+            margin: 0 20px;
+            padding: 5px;
+        }
+
+
+        div.container div.about div.about-me p{
+            text-align: justify;
+            font-size: 1.3rem;
+        }
+
+    div.container div.about div.languages{
+        display: inline-block;
+        width: 460px;
+        min-height: 400px;
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+        div.container div.about div.languages .logos{
+            width: 80px;
+            margin: 7px 2px 2px 2px;
+        }
+
+    div.container div.about div.projects{
+        vertical-align: top;
+        background-image: linear-gradient(white, lightgrey);
+        display: inline-block;
+        width: 460px;
+        min-height: 400px;
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+        div.container div.about div.projects h4{
+            margin: 15px 0 0 10px;
+            text-align: left;
+            font-size: 1.3rem;
+        }
+
+        div.container div.about div.projects p{
+            margin-left: 10px;
+            text-align: left;
+            font-size: 1.2rem;
+        }
+
+div.container div.social{
+      text-align: center;
+      margin-top: 20px;
+}
+
+    div.container div.social a{
+        color: black;
+        vertical-align: 25%;
+        padding: 5px;
+        font-size: 1.1rem;
+    }
+
+    div.container div.social img{
+        width: 25px;
+    }
+}
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+h5{
+    font-size: 0.8rem;
+}
+
+div.container{
+    width: 700px;
+    margin: 0 auto;
+    padding: 15px;
+    background-image: linear-gradient(lightblue, white, lightblue);
+}
+
+    div.container div.details{
+        margin: 0 auto;
+    }
+
+        div.container div.details img{
+            object-fit: cover;
+            width: 180px;
+            height: 180px;
+            margin: 20px;
+        }
+
+        div.container div.details div.info{
+            color: darkblue;
+            display: inline-block;
+            vertical-align: top;
+            letter-spacing: 1px;
+            margin-top: 50px;
+            width: 450px;
+        }
+
+        div.container div.details h3{
+            border-bottom: 2px solid darkblue;
+            padding-bottom: 25px;
+            margin-bottom: 25px;
+        }
+
+    div.container div.about{
+    text-align: center;
+    }
+
+        div.container div.about div.about-me{
+            margin: 0 20px;
+            padding: 5px;
+        }
+
+            div.container div.about div.about-me p{
+                text-align: justify;
+                font-size: 1.2rem;
+            }
+
+        div.container div.about div.languages{
+            display: inline-block;
+            width: 300px;
+            min-height: 400px;
+            padding: 15px;
+            margin-top: 10px;
+        }
+
+            div.container div.about div.languages .logos{
+                width: 70px;
+                margin: 7px 2px 2px 2px;
+            }
+
+            div.container div.about div.languages h2{
+                font-size: 1.7rem;
+            }
+
+        div.container div.about div.projects{
+            vertical-align: top;
+            background-image: linear-gradient(white, lightgrey);
+            display: inline-block;
+            width: 300px;
+            min-height: 400px;
+            padding: 15px;
+            margin-top: 10px;
+        }
+
+            div.container div.about div.projects h4{
+                font-size: 1.2rem;
+                margin: 15px 0 0 10px;
+                text-align: left;
+            }
+
+            div.container div.about div.projects h2{
+                font-size: 1.7rem;
+            }
+
+            div.container div.about div.projects p{
+                font-size: 1.2rem;
+                margin-left: 10px;
+                text-align: left;
+            }
+}
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+     
+}
